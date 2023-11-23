@@ -1,0 +1,38 @@
+{
+    "com.badlogic.gdx.graphics.g2d.BitmapFont": {
+        "default-font": { "file": "hud/bold-font.fnt" }
+    },
+
+    "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+        "default": {
+            "up": {
+                "com.mygame.ui.CustomTextButtonStyle": {
+                    "upColor": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    }
+                }
+            },
+            "down": {
+                "com.mygame.ui.CustomTextButtonStyle": {
+                    "downColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    }
+                }
+            },
+            "font": "default-font"
+        }
+    },
+
+    "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+        "default": {
+            "font": "default-font",
+            "fontColor": "white"
+        }
+    }
+}
